@@ -1,0 +1,12 @@
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "http://muc-srvrepo1:8081/nexus/content/repositories/accurev.repo.components.releases") {
+            authentication(userName: "admin", password: "password")
+        }
+
+        snapshotRepository(url: "http://muc-srvrepo1:8081/nexus/content/repositories/accurev.repo.components") {
+            authentication(userName: "admin", password: "password")
+        }
+    }
+}
+
