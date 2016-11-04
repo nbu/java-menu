@@ -4,4 +4,4 @@ apply plugin: 'maven'
 group = 'java-menu'
 version = '0.0.1-SNAPSHOT'
 
-apply from: "avid_deployer.gradle"
+apply from: "default_deployer.gradle"
